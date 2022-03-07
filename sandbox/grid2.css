@@ -7,4 +7,40 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  height: 100vh;
+  display: grid;
+  grid-template-areas: 'header header header'
+    'nav content sidebar'
+    'nav footer footer';
+}
+
+header,
+footer,
+main,
+aside,
+nav {
+  background: steelblue;
+  color: white;
+  padding: 20px;
+  border: skyblue 1px solid;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: content;
+}
+
+footer {
+  grid-area: footer;
+}
+
+aside {
+  grid-area: sidebar;
 }
