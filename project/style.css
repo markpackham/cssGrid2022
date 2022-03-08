@@ -12,3 +12,32 @@ body {
   line-height: 1.7;
   font-size: 13px;
 }
+
+.testimonials {
+  max-width: 1440px;
+  margin: 100px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  margin-bottom: 10px;
+}
+
+
+footer {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .testimonials {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
