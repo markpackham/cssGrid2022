@@ -30,6 +30,12 @@ body {
   margin-bottom: 10px;
 }
 
+.card__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
 
 footer {
   text-align: center;
